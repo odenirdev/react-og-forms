@@ -1,5 +1,7 @@
-This example was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-og-forms example
 
-It is linked to the react-og-forms package in the parent directory for development purposes.
+> Example of forms lib by OG Developer
 
 You can run `yarn install` and then `yarn start` to test your package.
+
+click here to see [react-og-forms](https://www.npmjs.com/package/react-og-forms)
