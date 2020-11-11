@@ -31,12 +31,16 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^25.1.4",
+    "@types/lodash": "^4.14.164",
     "@types/node": "^12.12.38",
     "@types/react": "^16.9.27",
+    "@types/react-circular-progressbar": "^1.1.0",
     "@types/react-dom": "^16.9.7",
+    "@types/react-dropzone": "^5.1.0",
+    "@types/styled-components": "^5.1.4",
+    "@types/webfontloader": "^1.6.32",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
-    "microbundle-crl": "^0.13.10",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
@@ -50,14 +54,26 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "microbundle-crl": "^0.13.10",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "typescript": "^3.7.5"
+    "typescript": "^4.0.5",
+    "typescript-styled-plugin": "^0.15.0"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^0.21.0",
+    "filesize": "^6.1.0",
+    "lodash": "^4.17.20",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dropzone": "^11.2.3",
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.2.0",
+    "webfontloader": "^1.6.28"
+  }
 }

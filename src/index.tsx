@@ -1,10 +1,9 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import Form from './components/Form'
+import Input from './components/Input'
+import Item from './components/Item'
+import File from './components/File'
+import Switch from './components/Switch'
 
-interface Props {
-  text: string
-}
+export { Input, Item, File, Switch }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export default Form
