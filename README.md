@@ -2,9 +2,11 @@
 
 > Forms lib made by OG Developer using typescript, styled-components and react-dropzone
 
-> Main reference for construction access at [link](https://www.youtube.com/watch?v=G5UZmvkLWSQ&ab_channel=Rocketseat)
+> Main reference for construction access at ["Upload Files by Diego Fernandes from Rocketseat"](https://www.youtube.com/watch?v=G5UZmvkLWSQ&ab_channel=Rocketseat)
 
 [![NPM](https://img.shields.io/npm/v/react-og-forms.svg)](https://www.npmjs.com/package/react-og-forms) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+[Documentation](https://react-og-forms.netlify.app/)
 
 ## Install
 
