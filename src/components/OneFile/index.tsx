@@ -204,13 +204,16 @@ function Index(props: Props) {
   async function handlerRemove() {
     try {
       if (props.value[0].url) {
-        Axios.delete(`${props.baseUrl}/upload/files/${props.value[0].id}`, {
-          headers: props.headers || { Authorization: '' }
-        })
-
-        setUploadedFile(undefined)
-        props.onChange([])
+        await Axios.delete(
+          `${props.baseUrl}/upload/files/${props.value[0].id}`,
+          {
+            headers: props.headers || { Authorization: '' }
+          }
+        )
       }
+
+      setUploadedFile(undefined)
+      props.onChange([])
     } catch (error) {
       console.error(error)
     }
