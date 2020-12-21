@@ -133,7 +133,8 @@ function Index(props: Props) {
                 {file.readableSize}{' '}
                 {(file.uploaded || file.error) && (
                   <button
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault()
                       handlerRemove(file)
                     }}
                   >
