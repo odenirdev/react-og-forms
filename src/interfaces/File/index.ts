@@ -8,6 +8,7 @@ interface File {
   baseUrl: string
   headers?: Object
   multiple?: boolean
+  onDelete?: () => void
 }
 
 export default File
