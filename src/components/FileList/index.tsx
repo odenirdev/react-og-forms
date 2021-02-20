@@ -135,7 +135,8 @@ function Index(props: Props) {
                   <button
                     onClick={(e) => {
                       e.preventDefault()
-                      props.onDelete!(file.id)
+
+                      if (props.onDelete) props.onDelete!(file.id)
                       handlerRemove(file)
                     }}
                   >
