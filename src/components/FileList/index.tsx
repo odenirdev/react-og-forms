@@ -27,14 +27,6 @@ function Index(props: Props) {
       Axios.delete(`${props.baseUrl}/upload/files/${file.id}`, {
         headers: props.headers || { Authorization: '' }
       })
-        .then(() => {
-          filteredFiles(file)
-        })
-        .catch((err) => {
-          console.error(err)
-        })
-
-      return
     }
 
     filteredFiles(file)
